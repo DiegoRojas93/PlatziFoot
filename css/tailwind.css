@@ -1,5 +1,7 @@
-@tailwind base;
+/* nos ayuda a configurar los elementos basicos de la lista */
+/* @tailwind base;
 
-@tailwind components;
+@tailwind components; */
 
+/* nOPs genera el codigo de utilerias */
 @tailwind utilities;
