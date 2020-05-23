@@ -1,7 +1,21 @@
 /* nos ayuda a configurar los elementos basicos de la lista */
-/* @tailwind base;
+@tailwind base;
 
-@tailwind components; */
+@tailwind components;
 
-/* nOPs genera el codigo de utilerias */
+/* Nos genera el codigo de utilerias */
 @tailwind utilities;
+
+
+
+@responsive{
+  .rotate-45{
+    transform: rotate(45deg);
+  }
+}
+
+@variants hover{
+  .zoom{
+    transform: scale(2);
+  }
+}
