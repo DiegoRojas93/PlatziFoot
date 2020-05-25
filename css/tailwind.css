@@ -14,15 +14,15 @@
 }
 
 .btn{
-  @apply rounded shadow-xl py-1 px-4 bg-gray-500 mx-auto block;
+  @apply rounded shadow-lg py-1 px-4 bg-gray-500 block;
 }
 
 .btn-primary{
-  @apply bg-yellow-500;
+  @apply bg-yellow-600;
 }
 
 .btn:hover{
-  @apply hover:shadow-none hover:bg-gray-700 hover:text-white;
+  @apply shadow-none bg-gray-700 text-white;
 }
 
 @tailwind utilities;
