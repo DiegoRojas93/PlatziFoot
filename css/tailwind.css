@@ -9,6 +9,7 @@
 .form-control:hover{
   @apply  bg-white;
 }
+
 .form-control:focus{
   @apply outline-none shadow-outline;
 }
@@ -20,6 +21,7 @@
 .btn-primary{
   @apply bg-yellow-600;
 }
+
 
 .btn:hover{
   @apply shadow-none bg-gray-700 text-white;
