@@ -6,15 +6,17 @@
   <title>Card / Producto</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="min-h-screen bg-gray-400 mx-4">
-  <div class="bg-white mt-4">
+<body class="min-h-screen bg-gray-400 mx-4 mb-8">
+  <div class="mt-4 md:w-1/2 md:flex md:bg-white rounded-lg">
     <div class="">
-      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80" alt="" srcset="">
+      <img class="w-full rounded-lg" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80" alt="" srcset="">
     </div>
-    <h2>Titulo</h2>
-    <p>Descripcion</p>
-    <div>Precio</div>
-    <div>calificaion / reseñas</div>
+    <div class="relative mx-2 p-2 shadow-lg bg-white md:bg-transparent rounded-lg -mt-2">   
+      <h2 class="text-xl tracking-tight font-semibold  text-gray-900 md:text-lg">Hamburguesa de queso</h2>
+      <p class="text-gray-700 leading-snug">Hamburguesa de queso y aderezo chipotle 🍔<p>
+      <div class="mt-2 text-sm font-semibold text-gray-700">COL $15.000</div>
+      <div class="text-xs text-yellow-700">&starf;&starf;&starf;&starf;&star; / 26 reseñas</div>
+    </div>
   </div>
 </body>
 </html>
