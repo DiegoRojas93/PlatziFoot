@@ -1,3 +1,16 @@
+# Platzi Foot
+
+Este proyecto fue realizado por medio del framewok de Tailwindcss y alpine.js.
+
+https://tailwindcss.com/
+https://github.com/alpinejs/alpine
+
+https://purgecss.com/
+https://cssnano.co/
+
+
+postcss.config.js
+```
 const purgecss = require('@fullhuman/postcss-purgecss')
 
 module.exports = {
@@ -11,7 +24,7 @@ module.exports = {
        // './**/*.js',
        // './**/*.vue'
     ],
-      //IMPORTANTE: Para soportar pseudo-clases
+      //IMPORTANTE: Para el correcto funcionamiento de las pseudo-clases
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
     }),
   
@@ -20,3 +33,4 @@ module.exports = {
     })
   ]
 }
+```
